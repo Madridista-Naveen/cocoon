@@ -1,0 +1,28 @@
+:root {
+ --mainHeader:70px;
+ --subHeader:24px;
+ --mainSubHeader:40px;
+ --header:18px;
+ --paragraph:20px;
+
+ --mainColor:#6E309C;
+ --subColor:#434343;
+ --headerColor:#101828;
+
+ --contentColor:#667085;
+
+ --subFontColor:background: #333333;
+
+ --mt:50px;
+ --mb:50px;
+}
+
+body{
+ font-size:14px;
+/* // font-family: 'Gilroy'; */ 
+ font-style: normal;
+ font-weight: 400;
+ color:var(--subFontColor);
+}
+
+

@@ -1,0 +1,38 @@
+.footerLink{
+    color:rgba(0,0,0,60%);
+   }
+
+.logoStyle {
+    width:40%       
+}   
+
+   .footerLink:hover{
+    padding-right:5px;
+    padding-left:5px;
+    cursor:pointer;
+    color:var(--mainColor);
+    transition: 0.3s;
+   }
+
+   .copyright{
+    font-size:14px;
+    color:rgba(52, 44, 44, 0.6);
+    margin-top: 20px;
+   }
+
+   .imgs{
+    height:100%;
+    width:100%;
+    /* border-radius:50%;
+    background-color:#944EB4; */
+    margin-right:15px;
+    align-self: flex-start;
+   }
+
+
+   @media only screen and (min-width:500px) and (max-width: 990px)
+   {
+    .logoStyle {
+        width:25%       
+    }   
+   }

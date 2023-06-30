@@ -1,0 +1,57 @@
+
+.howDoes{
+    color:white;
+    background-color:var(--mainColor);
+    /* margin-top:var(--mt); */
+    margin-bottom:var(--mt);
+   }
+   
+   .howDoesHeader{
+    margin-bottom:var(--mb);
+    font-size: var(--mainSubHeader);
+    line-height:40px;
+    font-weight:600;
+   }
+   
+   .environment{
+    padding-top:var(--mt);
+    padding-bottom:var(--mt);
+   }
+   
+   .content{
+    width: 30%;
+    margin-bottom:20px;
+   }
+   
+   .learning{
+    font-size:var(--header);
+    font-weight:700;
+   }
+
+   @media only screen and (min-width:500px) and (max-width: 990px) {
+   .howDoesHeader{
+    margin-bottom:35px;
+   }
+   
+   .content{
+    width:100%;
+    padding-right:50px;
+    padding-left:50px;
+   }
+   }
+
+
+   
+
+@media only screen and (max-width:500px){
+
+.howDoesHeader{
+    margin-bottom:35px;
+   }
+   
+   .content{
+    width:100%;
+    padding-right:50px;
+    padding-left:50px;
+   }
+}

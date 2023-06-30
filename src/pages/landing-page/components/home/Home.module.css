@@ -1,0 +1,133 @@
+
+
+.mainHeader{
+    font-size : var(--mainHeader);
+    color:var(--mainColor);
+    font-weight:600;
+    margin-bottom:25px;
+    width:300px; 
+    line-height:70px;
+   }
+   
+   .butterfly { 
+      height:550px;
+     }
+  
+     .mainSubHeader {
+    font-size: var(--subHeader);
+    font-weight : 600;
+    margin-bottom:25px;
+   }
+   
+   .mainContent{
+    width:90%;
+    margin-bottom:25px;
+   }
+
+   
+.regBtn
+{
+  display: block;
+  margin: 40px 0;
+  width: 240px;
+  height: 80px;
+  border: none;
+  background-color: #6e309c;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  transition: .2s linear;
+  transform: rotateX(15deg);
+
+    /* transform: rotateX(15deg); */
+
+}
+
+.regBtn:hover {
+   transform: scale(0.9) rotateX(15deg);
+   box-shadow: 0 5px #4e236e;
+}
+.regBtn:focus {
+  transform: scale(0.8) rotateX(15deg);
+  box-shadow: 0 15px 15px #4e236e;
+}
+
+/* 
+   .regBtn {
+    background-color:var(--mainColor);
+    border:none;
+    border-radius:25px;
+    width:150px;
+    height:35px;
+    color:white;
+    cursor: pointer;
+   } */
+
+
+    .mainPage {
+    height:700px;
+    width:100%;
+   }
+
+   @media only screen and (min-width:500px) and (max-width: 990px) {
+
+      .mainHeader{
+       font-size : 50px;
+       color:var(--mainColor);
+       font-weight:600;
+       margin-bottom:25px;
+       line-height:55px;
+      }
+      
+      .mainSubHeader {
+       font-size: var(--subHeader);
+       font-weight : 600;
+       margin-bottom:25px;
+      }
+      
+      .mainContent{
+       width:90%;
+       margin-bottom:25px;
+      }
+
+      .butterfly { 
+         height:100%;
+        }
+     
+   
+   }
+
+
+   @media only screen and (max-width:500px){
+
+      .mainPage {
+         height:100%;
+         width:100%;
+         margin-top:var(--mt);
+         margin-bottom:var(--mt);
+        }
+        
+        .mainHeader {
+         margin-top: 30px;
+         width:100%;
+         font-size:40px;
+         line-height:50px;
+         margin-bottom:20px;
+        }
+        
+        .mainSubHeader {
+         font-weight : 600;
+         margin-bottom:20px;
+        }
+        
+        .mainContent{
+         width:100%;
+        }
+
+        .butterfly { 
+         height:100%;
+        }
+     
+      }        

@@ -1,0 +1,148 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.awardSection {
+  margin-top: var(--mt);
+  margin-bottom: var(--mb);
+}
+
+.awardHeader {
+  font-size: var(--mainSubHeader);
+  font-weight: 600;
+  color: var(--subColor);
+}
+
+.awardContent {
+  color: var(--contentColor);
+  font-size: var(--paragraph);
+}
+
+.regBtn {
+  border: none;
+  border-radius: 25px;
+  width: 250px;
+  height: 45px;
+  padding: 10px;
+  color: white;
+  background-color: var(--mainColor);
+  font-weight: 400;
+}
+
+.id-md-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgAward {
+  margin: 8px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  min-width: 100px;
+  max-width: 300px;
+  min-height: 100px;
+  max-height: 300px;
+  /* Added to ensure image width is 100% within container */
+}
+
+@media only screen and (max-width: 990px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .awardSection {
+    text-align: center;
+  }
+
+  .awardSection {
+    margin-top: var(--mt);
+    margin-bottom: var(--mb);
+  }
+
+  .awardHeader {
+    font-size: var(--mainSubHeader);
+    font-weight: 600;
+    color: var(--subColor);
+  }
+
+  .awardContent {
+    color: var(--contentColor);
+    font-size: var(--paragraph);
+  }
+
+
+  .regBtn {
+    border: none;
+    border-radius: 25px;
+    width: 250px;
+    height: 45px;
+    padding: 10px;
+    color: white;
+    background-color: var(--mainColor);
+    font-weight: 400;
+  }
+
+  .id-md-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .imgAward {
+    /* width: 100px; 
+        height: auto;x  */
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    min-width: 100px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 300px;
+  }
+}
+
+@media only screen and (min-width:500px) and (max-width: 990px) {
+  .awardImages {
+    text-align: center  !important;
+
+  }
+
+  .imgAward {
+    margin: 8px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    min-width: 100px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 30px;
+  }
+
+
+
+
+
+  .id-md-flex {
+    justify-content: center;
+  }
+
+  .imgAward {
+    object-fit: contain;
+    /* flex: 0 0 100%; Set the flex-basis to 100% to make the images occupy full width */
+  }
+}
+@media only screen and (min-width:0) and (max-width: 500px) {
+  .awardImages {
+    flex-direction: column  !important;
+    padding: auto;
+    margin: auto;
+
+  }
+  .imgAward {
+    width: 52%;
+    object-fit: contain;
+
+    /* flex: 0 0 100%; Set the flex-basis to 100% to make the images occupy full width */
+  }
+}

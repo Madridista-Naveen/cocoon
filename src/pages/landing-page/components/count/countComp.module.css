@@ -1,0 +1,39 @@
+.count{
+    background-color: #944EB4;
+    height: 200px;
+   }
+
+   
+ .containerCount {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+   
+   @media only screen and (min-width:500px) and (max-width: 990px) {
+      .count {
+         height: 100%;
+         padding-top: 10px;
+         padding-bottom: 10px;
+      }
+      
+   }
+
+   @media only screen and (max-width:500px){  
+   .count{
+    background-color:var(--mainColor);
+    height:100%;
+    padding-top:15px;
+    padding-bottom:13px;
+   }
+
+   .containerCount {
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 10px;
+   padding-bottom: 10px;
+   }
+   
+
+
+
+}
