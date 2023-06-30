@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/cocoon/static/css/main.f5dc4f15.css",
+    "main.js": "/cocoon/static/js/main.41b92455.js",
+    "static/media/image.png": "/cocoon/static/media/image.2c67ab848ecde626ac30.png",
+    "static/media/Rectangle.png": "/cocoon/static/media/Rectangle.12910e237aea55118734.png",
+    "static/media/Img3.png": "/cocoon/static/media/Img3.5cc0d9eaaf0904a18374.png",
+    "static/media/Img2.png": "/cocoon/static/media/Img2.f03748e4a0ba3377b7de.png",
+    "static/media/Img1.png": "/cocoon/static/media/Img1.9453c25f4f06c9363736.png",
+    "static/media/security-logos.png.png": "/cocoon/static/media/security-logos.png.fe816b5136604efc4f2f.png",
+    "static/media/Vector 13.png": "/cocoon/static/media/Vector 13.6afd989602227a55e3a3.png",
+    "static/media/Vector 7.png": "/cocoon/static/media/Vector 7.1fd4532503e8e0ab95af.png",
+    "static/media/GSV.png": "/cocoon/static/media/GSV.9e47b0f7375a31496272.png",
+    "static/media/Umagine.png": "/cocoon/static/media/Umagine.51585a10b14a2229b242.png",
+    "static/media/Wharton.png": "/cocoon/static/media/Wharton.fd1677dd3952ec9479ed.png",
+    "static/media/IC3.png": "/cocoon/static/media/IC3.acb40c50ed96088d6269.png",
+    "static/media/Entrepreneur.png": "/cocoon/static/media/Entrepreneur.64465dd99d2313616d9b.png",
+    "static/media/CNBC.png": "/cocoon/static/media/CNBC.ebc6f087eba885a8b3b7.png",
+    "index.html": "/cocoon/index.html",
+    "main.f5dc4f15.css.map": "/cocoon/static/css/main.f5dc4f15.css.map",
+    "main.41b92455.js.map": "/cocoon/static/js/main.41b92455.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5dc4f15.css",
+    "static/js/main.41b92455.js"
+  ]
+}
